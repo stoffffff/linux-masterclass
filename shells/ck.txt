@@ -1,0 +1,22 @@
+# Change shell:
+chsh -> Prompted for password then provide path to the desired shell.
+
+# PS1 envVariable > change the content of thius variable to change the display of the command prompt:
+🔹 Common Escape Sequences
+Code	Meaning
+\u	Username of the current user
+\h	Hostname (up to the first dot)
+\H	Full hostname
+\w	Current working directory (full path)
+\W	Current directory name (basename only)
+\t	Time (HH:MM:SS)
+\T	Time (12-hour format)
+\d	Date
+\n	New line
+\$	Shows # if root, $ if normal user
+\!	History number of the command
+\#	Command number of this shell session
+\s	Shell name
+
+# Add / Update envVariable or aliases and persist it all over the server:
+$: echo ' export VARIABLE = " VALUE " ' >> ~/.profile // .bashrc // .bash_profile
