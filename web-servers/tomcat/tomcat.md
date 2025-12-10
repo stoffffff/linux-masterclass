@@ -1,7 +1,7 @@
 ***yum install -y tomcat***<br>
 ***systemctl start tomcat***
 
-**To make modifictations in tomcat's config**<br>
+# To make modifictations in tomcat's config
 ***vi /etc/tomcat/webserver.xml***<br>
 ***systemctl restart tomcat***
 # CHANGE TOMCAT'S PORT
